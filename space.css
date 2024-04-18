@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: url('universe.jpg');
+    background-size: cover;
+}
+
+#board {
+    background-color: black;
+}
+
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+}
+
+.exit-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.button-container .button,
+.exit-button-container .button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container .button:hover,
+.exit-button-container .button:hover {
+    background-color: white;
+    color: black;
+}
+
+

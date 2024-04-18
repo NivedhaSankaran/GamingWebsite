@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('universe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.start-button {
+    
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px; 
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden; 
+    border-radius: 35px; 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+body {
+    background-color: black;
+}
+
+.start-button {
+    background-color: black; 
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+}
+
+.start-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+
